@@ -19,8 +19,9 @@ This makes testing your applications easier. Production environments aren't as f
 ## How to deploy 
 
 
-Deploy website to heroku
+To deploy your application to heroku follow the steps below
 
+Create an account on Heroku
 
 Install the Heroku CLI toolbelt
 
@@ -32,7 +33,7 @@ To use the toolbelt you will need to login to your heroku account.
 
 Once you are successfully logged in, navigate to your project. To deploy to Heroku you must use git. In the same way we push our code from our local environment to github, we will be pushing our code to heroku. Once heroku receives our code it will then begin to build the remote environment and run our application. **NB** The remote environment is a server somewhere that requires its own setup.
 
-When building your project, you will most likely have a React frontend and Rails backend. There are two ways of deploying. Option 1 is the easiest and will require you to setup two separate services. We will deploy your backend and frontend separately making your Rails api its own server. The other option involves having Rails serve up your React frontend and for final projects is not recommended. 
+When building your project, you will most likely have a React frontend and Rails backend. There are two ways of deploying this type of setup. Option 1 is the easiest and will require you to setup two separate remote environmens. We will deploy your backend and frontend separately. Your Rails API and the React application will each have their own server (remote environment on Heroku). The other option involves having Rails serve up your React frontend, this will require a deep knowledge of the Rails Assett Pipeline and Webpack. We discorage this type of setup for final projects. 
 
 #### Deploying to Heroku 
 
