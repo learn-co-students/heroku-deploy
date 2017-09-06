@@ -94,7 +94,7 @@ Once the build is successfully type `heroku open` to see your frontend. Be sure 
 
 ### Resources
 
-[Deploying Rails to Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5)
-[Mars Create React App buildpack](https://github.com/mars/create-react-app-buildpack)
-[Heroku Procfiles](https://devcenter.heroku.com/articles/procfile)
-[Heroku Buildpacks](https://devcenter.heroku.com/articles/buildpacks)
+* [Deploying Rails to Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5)
+* [Mars Create React App buildpack](https://github.com/mars/create-react-app-buildpack)
+* [Heroku Procfiles](https://devcenter.heroku.com/articles/procfile)
+* [Heroku Buildpacks](https://devcenter.heroku.com/articles/buildpacks)
